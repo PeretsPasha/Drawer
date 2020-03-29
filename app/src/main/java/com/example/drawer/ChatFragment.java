@@ -14,9 +14,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class ChatFragment extends Fragment implements View.OnClickListener{
 
     public ChatFragment() {
@@ -35,7 +32,7 @@ public class ChatFragment extends Fragment implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        Toast.makeText(getActivity(), "Вы нажали на кнопку",
+        Toast.makeText(getActivity(), "Clicked button",
                 Toast.LENGTH_SHORT).show();
     }
 }
