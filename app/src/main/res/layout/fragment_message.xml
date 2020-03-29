@@ -6,10 +6,9 @@
     android:background="@color/cardview_shadow_start_color"
     tools:context=".MessageFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="message" />
+        android:layout_height="match_parent" />
 
 </FrameLayout>
