@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.cart:
-                Intent intent = new Intent(this, DetailActivity.class);
+                Intent intent = new Intent(this, Basket.class);
                 startActivity(intent);
                 return true;
             default:
